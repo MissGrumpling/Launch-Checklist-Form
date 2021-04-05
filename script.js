@@ -63,6 +63,7 @@
          if(cargoMass.value < 10000 && fuelLevel.value > 10000 ){
             launchStatus.innerHTML = 'Shuttle is ready for launch!';
             launchStatus.style.color = 'green';
+            faultyItems.style.visibility = 'hidden';
          }
 
       });
